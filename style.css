@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background-color: rgb(45, 197, 224);
+  overflow: hidden;
+}
+
+.salute {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.saluteTextContainer {
+  flex: 3;
+}
+
+.saluteText {
+  color: rgb(36, 36, 36);
+  font-size: 60vw;
+  cursor: default;
+}
+
+.saluteImgContainer {
+  flex: 1;
+}
+
+.saluteImg {
+  width: 100%;
+}
+
+.nameContainer {
+  background-color: rgb(216, 164, 69);
+  height: 100vh;
+}
+
+.name {
+  font-size: 20vw;
+  cursor: default;
+  color: #333;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.jobTitleContainer {
+  height: 100vh;
+}
+
+
+.purple {
+  background: rebeccapurple;
+}
+
+.jobTitle {
+  font-size: 10vw;
+  color: rgb(36, 36, 36);
+  line-height: 100vh;
+  cursor: default;
+}
